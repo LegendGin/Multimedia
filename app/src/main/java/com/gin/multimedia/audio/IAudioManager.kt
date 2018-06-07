@@ -7,6 +7,7 @@ package com.gin.multimedia.audio
  * @see
  */
 interface IAudioManager {
+    fun setCallback(callback: AudioCallback)
     fun startRecord()
     fun stopRecord()
     fun play(path: String)
